@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            margin: 0;
+            padding: 0;
+         }
+
+         h1{
+            margin: 0;
+            background-color: rgb(201, 67, 121);
+            color: BLACK;
+            padding: 30px;
+         }
+
+         .negrito{
+            font-weight: bold;
+         }
+
+         .italico{
+            font-style: italic;
+         }
+
+         .sublinhado{
+            text-decoration: underline;
+         }
+
+         .destaque{
+            background-color: rgba(132, 13, 61, 0.773);
+            color: white;
+            border: 1px solid black;
+         }
+
+         table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+         }
+    </style>
+</head>
+<body>
+
+    <h1>Exemplo5-CSS</h1>
+
+    <p>
+        Olá, seja<spam class="negrito destaque"> bem vindo</spam> a minha página 
+    </p>
+
+    <p class="sublinhado">
+      Abaixo informações pessoais
+    </p>
+
+    <ul>
+        <li>Nome: <span class="italico">Mariana Barbi de Oliveira</span></li>
+        <li>Cidade:<span class="sublinhado">Arceburgo</span></li>
+        <li>Curso:<span class="negrito italico">Mtec em Informática para Internet</span></li>
+    </ul>
+
+    <table>
+        <tr>
+            <th>Amigo</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+        </tr>
+        <tr>
+            <td class="italico">Julia</td>
+            <td>Mococa</td>
+            <td>SP</td>
+        </tr>
+        <tr>
+            <td>Luize</td>
+            <td class="sublinhado">Arceburgo</td>
+            <td>MG</td>
+        </tr>
+        <tr>
+            <td>Livia</td>
+            <td>Tapiratipa</td>
+            <td class="destaque">SP</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
