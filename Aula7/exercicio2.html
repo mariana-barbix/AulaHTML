@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+        }
+
+        h1 {
+            color: red;
+            background-color: yellow;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .caixa {
+            background-color: white;
+            color: rgb(96, 0, 0);
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+        table,tr,td,th 
+        {
+         border: 1px red solid;
+         border-collapse: collapse;
+         padding: 10px;
+         
+        }
+
+        th
+        {
+            color: white;
+            background-color: rgb(96, 0, 0);
+            text-align: center;
+        }
+
+        .classe1
+        {
+            background-color: rgba(223, 44, 44, 0.253);
+        }
+
+        .classe2
+        {
+            background-color: aquamarine;
+        }
+
+        .classe3
+        {
+            background-color: yellow;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Exercício 2: Tabela estilizada com cores e classes</h1>
+
+    <div class="caixa">
+        <h2>1)Monte e esilize a tabela</h2>
+
+        <p>A tabela a seguir utiliza cabeçalho destacado, linhas alternadas e células com classe. Observe as bordas
+            vermelhas e o colapso de bordas, como visto no exemplo5.
+        </p>
+
+        <h4>Estoque de Produtos</h4>
+
+        <table>
+            <tr>
+               <th>Produto</th>
+               <th>Categoria</th>
+               <th>Preço</th>
+               <th>Disponibilidade</th> 
+            </tr>
+            <tr class="classe1">
+                <td>Mouse</td>
+                <td>Periféricos</td>
+                <td>R$80,00</td>
+                <td>Disponibilidade</td>
+    
+            </tr>
+            <tr>
+                <td class="classe2">Teclado</td>
+                <td class="classe2">Periféricos</td>
+                <td class="classe3">R$120,00</td>
+                <td class="classe2">Fora de estoque</td>
+            </tr>
+            <tr class="classe1">
+                <td><i>Monitor</i></td>
+                <td>Display</td>
+                <td>R$850,00</td>
+                <td><u>Em reposição</u></td>
+                
+            </tr>
+            <tr class="classe2">
+                <td>Headset</td>
+                <td>Áudio</td>
+                <td>R$210,00</td>
+                <td>Em estoque</td>
+            </tr>
+        </table>
+
+
+
+
+    </div>
+</body>
+
+</html>
