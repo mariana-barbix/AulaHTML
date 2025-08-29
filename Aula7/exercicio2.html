@@ -32,6 +32,7 @@
          border-collapse: collapse;
          padding: 10px;
          
+         
         }
 
         th
@@ -54,9 +55,23 @@
         .classe3
         {
             background-color: yellow;
+            border: 3px red;
+            border-collapse: collapse;
+            border-style:dashed;
             
         }
 
+        .classe4
+        {
+            font-size: 11px;
+        }
+
+        .classe5
+        {
+            width: 100%;
+        }
+
+        
     </style>
 </head>
 
@@ -66,13 +81,13 @@
     <div class="caixa">
         <h2>1)Monte e esilize a tabela</h2>
 
-        <p>A tabela a seguir utiliza cabeçalho destacado, linhas alternadas e células com classe. Observe as bordas
+        <p>A tabela a seguir utiliza cabeçalho destacado, linhas alternadas e células com classe <span class="classe4">.destaque</span> Observe as bordas
             vermelhas e o colapso de bordas, como visto no exemplo5.
         </p>
 
         <h4>Estoque de Produtos</h4>
 
-        <table>
+        <table class="classe5">
             <tr>
                <th>Produto</th>
                <th>Categoria</th>
@@ -86,11 +101,11 @@
                 <td>Disponibilidade</td>
     
             </tr>
-            <tr>
-                <td class="classe2">Teclado</td>
-                <td class="classe2">Periféricos</td>
-                <td class="classe3">R$120,00</td>
-                <td class="classe2">Fora de estoque</td>
+            <tr class="classe2">
+                <td >Teclado</td>
+                <td >Periféricos</td>
+                <td class="classe3" >R$120,00</td>
+                <td >Fora de estoque</td>
             </tr>
             <tr class="classe1">
                 <td><i>Monitor</i></td>
@@ -106,6 +121,13 @@
                 <td>Em estoque</td>
             </tr>
         </table>
+
+        <p>Tarefas:</p>
+
+    <ul>
+        <li>Adicione duas novas linhas de produtos e aplique <spam class="classe4">.negrito, .italico, .sublinhado </spam>conforme desejar.</li>
+        <li>Aplique a classe <spam class="classe4">.destaque</spam> em uma célula diferente e observe o efeito</li>
+    </ul>
 
 
 
