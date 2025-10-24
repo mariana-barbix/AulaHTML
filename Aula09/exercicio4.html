@@ -1,51 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <style>
-    .topo
-    {
+    .topo {
         margin: 0;
         color: white;
-        background-color:rgb(122, 15, 15) ;
+        background-color: rgb(122, 15, 15);
         height: 20vh;
         align-items: center;
         justify-content: center;
-        display:flex;
+        display: flex;
         flex-direction: column;
         padding: 0;
-    
+
     }
 
-    .img1{
-        width: 250px;
-        border: 1px solid black;
+    .antes
+    {
         display: flex;
-        flex-direction:column;
-        display: flex;
+        margin-top: 20px;
+        justify-content: center;
         
+       
+    }
+
+    .img1 {
+        width: 200px;
+        border: 1px solid black;
+        margin-left: 5px;
+        flex-direction: column;
+        display: flex;
+
 
     }
 
-    
+   
 </style>
+
 <body>
     <div class="topo">
         <h2>Exercício 4</h2>
         <p>Posicionamento de elementos com FlexBox</p>
     </div>
 
-    <div class="img1">
-        <img src="SP.png" alt="São Paulo">
-        <div>
-            <h3>Estado de São Paulo</h3>
-            <p>É o estado mais populosos do País</p>
-        </div> 
+    <div class="antes">
+        <div class="img1 ">
+            <img src="SP.png" alt="100%">
+            <div>
+                <h3>Estado de São Paulo</h3>
+                <p>É o estado mais populosos do País</p>
+            </div>
+        </div>
+
+        <div class="img1 ">
+            <img src="MG.png" alt="100%">
+            <div>
+                <h3>Estado de Minas Gerais</h3>
+                <p> É um estado rico em cultura, história e recursos naturais.</p>
+            </div>
+        </div>
+
+        <div class="img1">
+            <img src="RJ.png" alt="100%">
+            <div>
+                <h3>Estado do Rio de Janeiro</h3>
+                <p>É um estado famoso por suas praias, samba, paisagens icônicas e a vibrante cultura urbana.</p>
+            </div>
+        </div>
+
+        <div class="img1 ">
+            <img src="ES.png" alt="100%">
+            <div>
+                <h3>Estado do Espirito Santo</h3>
+                <p>É um estado com praias, montanhas e economia baseada em petróleo e minério.</p>
+            </div>
+        </div>
     </div>
 
-   
 </body>
+
 </html>
